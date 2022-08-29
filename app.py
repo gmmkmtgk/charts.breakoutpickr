@@ -6,9 +6,6 @@ import pandas as pd
 from PIL import Image
 from datetime import datetime
 
-with open("style.css") as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
 st.write("""
 # Stocks Charts Web Application
 ### Get the Stock Chart of your Choice
